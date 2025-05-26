@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BLOCKLISTURL="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/tif.normal.txt"
+BLOCKLISTURL="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dnsmasq/multi.txt"
 TEMPFILEPATH="/tmp/new-blocklist.txt"
 MINSIZE=1048576 # 1MiB
 TARGETFILEPATH="/etc/dnsmasq/blocklists/blocklist.txt"
